@@ -14,14 +14,7 @@ function removeQueue(){
         myQueue.push(myRealQueue.pop());
     }
 }
-        function removeQueue(){
-            for(let i=0;i<=myQueue.length;i++){
-                myRealQueue.push(myQueue.pop());
-            }
-            console.log(myRealQueue);
-            myRealQueue.pop();
            
-        }
 addtoQueue(1);
 addtoQueue(2);
 addtoQueue(3);
